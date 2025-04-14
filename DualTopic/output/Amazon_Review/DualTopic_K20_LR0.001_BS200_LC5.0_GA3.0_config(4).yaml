@@ -1,0 +1,17 @@
+batch_size: 200
+dataset: Amazon_Review
+dropout: 0.2
+epochs: 1
+epsilon: 0.05
+gamma_align: 3.0
+hidden_dim: 300
+lambda_contrast: 5.0
+lang1: en
+lang2: cn
+learning_rate: 0.001
+lr_gamma: 0.5
+lr_scheduler: StepLR
+lr_step_size: 30
+model: DualTopic
+num_topic: 20
+tau: 0.75
